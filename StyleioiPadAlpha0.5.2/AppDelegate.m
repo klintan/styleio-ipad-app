@@ -8,12 +8,24 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // set root controller as stack controller
+    //_sideVC = [[sidebarViewController alloc] init];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle: nil];
+    self.sideVC  = [storyboard instantiateViewControllerWithIdentifier:@"SidebarViewController"];
+    self.stackController = [[PSStackedViewController alloc] initWithRootViewController:self.sideVC];
+    self.stackController.largeLeftInset = self.stackController.leftInset;
+    
+    self.window.rootViewController = self.stackController;
+    NSLog(@"Application didFinishLaunching");
+    [self.sideVC initialLoad];
     return YES;
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
