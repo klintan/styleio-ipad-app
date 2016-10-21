@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection (= 2.5.0)
+    - AFNetworking/NSURLSession (= 2.5.0)
+    - AFNetworking/Reachability (= 2.5.0)
+    - AFNetworking/Security (= 2.5.0)
+    - AFNetworking/Serialization (= 2.5.0)
+    - AFNetworking/UIKit (= 2.5.0)
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - PSStackedView (1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - PSStackedView (from `https://github.com/klintan/PSStackedView.git`)
+
+EXTERNAL SOURCES:
+  PSStackedView:
+    :git: https://github.com/klintan/PSStackedView.git
+
+CHECKOUT OPTIONS:
+  PSStackedView:
+    :commit: 6f02332f0c241fb5e202885a0ee9c885cb8fa907
+    :git: https://github.com/klintan/PSStackedView.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  PSStackedView: 734c9bd6fdae2576aa9403edef60ffcb5873a90e
+
+COCOAPODS: 0.35.0

@@ -42,12 +42,6 @@
 		8447F0DF1681025200CEBDA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8447F0BA1681025100CEBDA6 /* Foundation.framework */; };
 		8447F0E71681025200CEBDA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8447F0E51681025200CEBDA6 /* InfoPlist.strings */; };
 		8447F0EA1681025200CEBDA6 /* StyleioiPadAlpha0_5_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F0E91681025200CEBDA6 /* StyleioiPadAlpha0_5_2Tests.m */; };
-		8447F1021681027700CEBDA6 /* PSStackedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F0F61681027700CEBDA6 /* PSStackedViewController.m */; };
-		8447F1031681027700CEBDA6 /* PSStackedViewGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F0F91681027700CEBDA6 /* PSStackedViewGlobal.m */; };
-		8447F1041681027700CEBDA6 /* PSStackedViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F0FB1681027700CEBDA6 /* PSStackedViewSegue.m */; };
-		8447F1051681027700CEBDA6 /* PSSVContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F0FD1681027700CEBDA6 /* PSSVContainerView.m */; };
-		8447F1061681027700CEBDA6 /* UIView+PSSizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F0FF1681027700CEBDA6 /* UIView+PSSizes.m */; };
-		8447F1071681027700CEBDA6 /* UIViewController+PSStackedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F1011681027700CEBDA6 /* UIViewController+PSStackedView.m */; };
 		8447F10A1681042200CEBDA6 /* sidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447F1091681042200CEBDA6 /* sidebarViewController.m */; };
 		8447F1111681050900CEBDA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8447F10F168104FE00CEBDA6 /* QuartzCore.framework */; };
 		8447F11F1681081100CEBDA6 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 8447F11B1681081100CEBDA6 /* search.png */; };
@@ -68,9 +62,6 @@
 		84701C6716E354220085FE1B /* 259-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84701C6616E354220085FE1B /* 259-list@2x.png */; };
 		84701C6916E3542B0085FE1B /* 07-map-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84701C6816E3542B0085FE1B /* 07-map-marker@2x.png */; };
 		84701C6B16E354330085FE1B /* 19-gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84701C6A16E354330085FE1B /* 19-gear@2x.png */; };
-		848D2B1516C7D7F400773A35 /* FSN_categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D2B1016C7D7F300773A35 /* FSN_categories.m */; };
-		848D2B1616C7D7F400773A35 /* FSNConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D2B1216C7D7F400773A35 /* FSNConnection.m */; };
-		848D2B1716C7D7F400773A35 /* FSNData.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D2B1416C7D7F400773A35 /* FSNData.m */; };
 		848D2B7B16C7DEDA00773A35 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D2B2A16C7DEDA00773A35 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		848D2B7C16C7DEDA00773A35 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D2B2D16C7DEDA00773A35 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		848D2B7D16C7DEDA00773A35 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D2B2F16C7DEDA00773A35 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -89,6 +80,7 @@
 		84A6FF1D1698595C008AABDE /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A6FF1B1698595C008AABDE /* 86-camera.png */; };
 		84A6FF1E1698595C008AABDE /* 42-photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 84A6FF1C1698595C008AABDE /* 42-photos.png */; };
 		84D14793168CC0CE00F7C5E0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D14792168CC0CE00F7C5E0 /* MBProgressHUD.m */; };
+		DFB3AD1E642D9BC7F98109BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ABF81C138F4BFB34D64732 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +94,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40ABF81C138F4BFB34D64732 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		52772EDA718426E589F67F7B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		840A082A16870FEB00CD31B3 /* favorites_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorites_selected.png; sourceTree = "<group>"; };
 		840A082B16870FEB00CD31B3 /* search_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_selected.png; sourceTree = "<group>"; };
 		840A082C16870FEB00CD31B3 /* results_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = results_selected.png; sourceTree = "<group>"; };
@@ -147,20 +141,6 @@
 		8447F0E61681025200CEBDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8447F0E81681025200CEBDA6 /* StyleioiPadAlpha0_5_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleioiPadAlpha0_5_2Tests.h; sourceTree = "<group>"; };
 		8447F0E91681025200CEBDA6 /* StyleioiPadAlpha0_5_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleioiPadAlpha0_5_2Tests.m; sourceTree = "<group>"; };
-		8447F0F41681027700CEBDA6 /* PSStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedView.h; sourceTree = "<group>"; };
-		8447F0F51681027700CEBDA6 /* PSStackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewController.h; sourceTree = "<group>"; };
-		8447F0F61681027700CEBDA6 /* PSStackedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStackedViewController.m; sourceTree = "<group>"; };
-		8447F0F71681027700CEBDA6 /* PSStackedViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewDelegate.h; sourceTree = "<group>"; };
-		8447F0F81681027700CEBDA6 /* PSStackedViewGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewGlobal.h; sourceTree = "<group>"; };
-		8447F0F91681027700CEBDA6 /* PSStackedViewGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStackedViewGlobal.m; sourceTree = "<group>"; };
-		8447F0FA1681027700CEBDA6 /* PSStackedViewSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewSegue.h; sourceTree = "<group>"; };
-		8447F0FB1681027700CEBDA6 /* PSStackedViewSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStackedViewSegue.m; sourceTree = "<group>"; };
-		8447F0FC1681027700CEBDA6 /* PSSVContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSVContainerView.h; sourceTree = "<group>"; };
-		8447F0FD1681027700CEBDA6 /* PSSVContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSVContainerView.m; sourceTree = "<group>"; };
-		8447F0FE1681027700CEBDA6 /* UIView+PSSizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PSSizes.h"; sourceTree = "<group>"; };
-		8447F0FF1681027700CEBDA6 /* UIView+PSSizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PSSizes.m"; sourceTree = "<group>"; };
-		8447F1001681027700CEBDA6 /* UIViewController+PSStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PSStackedView.h"; sourceTree = "<group>"; };
-		8447F1011681027700CEBDA6 /* UIViewController+PSStackedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PSStackedView.m"; sourceTree = "<group>"; };
 		8447F1081681042200CEBDA6 /* sidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sidebarViewController.h; sourceTree = "<group>"; };
 		8447F1091681042200CEBDA6 /* sidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sidebarViewController.m; sourceTree = "<group>"; };
 		8447F10F168104FE00CEBDA6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -185,12 +165,6 @@
 		84701C6616E354220085FE1B /* 259-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "259-list@2x.png"; sourceTree = "<group>"; };
 		84701C6816E3542B0085FE1B /* 07-map-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker@2x.png"; sourceTree = "<group>"; };
 		84701C6A16E354330085FE1B /* 19-gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear@2x.png"; sourceTree = "<group>"; };
-		848D2B0F16C7D7F300773A35 /* FSN_categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSN_categories.h; sourceTree = "<group>"; };
-		848D2B1016C7D7F300773A35 /* FSN_categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSN_categories.m; sourceTree = "<group>"; };
-		848D2B1116C7D7F400773A35 /* FSNConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNConnection.h; sourceTree = "<group>"; };
-		848D2B1216C7D7F400773A35 /* FSNConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNConnection.m; sourceTree = "<group>"; };
-		848D2B1316C7D7F400773A35 /* FSNData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNData.h; sourceTree = "<group>"; };
-		848D2B1416C7D7F400773A35 /* FSNData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNData.m; sourceTree = "<group>"; };
 		848D2B2916C7DEDA00773A35 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		848D2B2A16C7DEDA00773A35 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		848D2B2B16C7DEDA00773A35 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -222,6 +196,7 @@
 		84A6FF1C1698595C008AABDE /* 42-photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42-photos.png"; sourceTree = "<group>"; };
 		84D14791168CC0CE00F7C5E0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		84D14792168CC0CE00F7C5E0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		877BE9A619F467329B2426C1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +216,7 @@
 				8447F0BB1681025100CEBDA6 /* Foundation.framework in Frameworks */,
 				8447F0BD1681025100CEBDA6 /* CoreGraphics.framework in Frameworks */,
 				845D09DE16E231E200F9B5D6 /* SDWebImage.framework in Frameworks */,
+				DFB3AD1E642D9BC7F98109BC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +242,7 @@
 				8447F0E21681025200CEBDA6 /* StyleioiPadAlpha0.5.2Tests */,
 				8447F0B71681025100CEBDA6 /* Frameworks */,
 				8447F0B51681025100CEBDA6 /* Products */,
+				C27ED88B496541FC566B92EB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,6 +271,7 @@
 				8447F0BA1681025100CEBDA6 /* Foundation.framework */,
 				8447F0BC1681025100CEBDA6 /* CoreGraphics.framework */,
 				8447F0DC1681025200CEBDA6 /* SenTestingKit.framework */,
+				40ABF81C138F4BFB34D64732 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -302,9 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				848D2B2816C7DEDA00773A35 /* ASIHTTPREQUEST */,
-				848D2B1916C7D7FA00773A35 /* FSN */,
 				84D1478F168CC0BC00F7C5E0 /* MBProgressHUD */,
-				8447F0F31681027700CEBDA6 /* PSStackedView */,
 				8447F0C71681025100CEBDA6 /* AppDelegate.h */,
 				8447F0C81681025100CEBDA6 /* AppDelegate.m */,
 				8447F0D01681025200CEBDA6 /* MainStoryboard.storyboard */,
@@ -391,40 +367,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		8447F0F31681027700CEBDA6 /* PSStackedView */ = {
-			isa = PBXGroup;
-			children = (
-				8447F0F41681027700CEBDA6 /* PSStackedView.h */,
-				8447F0F51681027700CEBDA6 /* PSStackedViewController.h */,
-				8447F0F61681027700CEBDA6 /* PSStackedViewController.m */,
-				8447F0F71681027700CEBDA6 /* PSStackedViewDelegate.h */,
-				8447F0F81681027700CEBDA6 /* PSStackedViewGlobal.h */,
-				8447F0F91681027700CEBDA6 /* PSStackedViewGlobal.m */,
-				8447F0FA1681027700CEBDA6 /* PSStackedViewSegue.h */,
-				8447F0FB1681027700CEBDA6 /* PSStackedViewSegue.m */,
-				8447F0FC1681027700CEBDA6 /* PSSVContainerView.h */,
-				8447F0FD1681027700CEBDA6 /* PSSVContainerView.m */,
-				8447F0FE1681027700CEBDA6 /* UIView+PSSizes.h */,
-				8447F0FF1681027700CEBDA6 /* UIView+PSSizes.m */,
-				8447F1001681027700CEBDA6 /* UIViewController+PSStackedView.h */,
-				8447F1011681027700CEBDA6 /* UIViewController+PSStackedView.m */,
-			);
-			path = PSStackedView;
-			sourceTree = "<group>";
-		};
-		848D2B1916C7D7FA00773A35 /* FSN */ = {
-			isa = PBXGroup;
-			children = (
-				848D2B0F16C7D7F300773A35 /* FSN_categories.h */,
-				848D2B1016C7D7F300773A35 /* FSN_categories.m */,
-				848D2B1116C7D7F400773A35 /* FSNConnection.h */,
-				848D2B1216C7D7F400773A35 /* FSNConnection.m */,
-				848D2B1316C7D7F400773A35 /* FSNData.h */,
-				848D2B1416C7D7F400773A35 /* FSNData.m */,
-			);
-			name = FSN;
-			sourceTree = "<group>";
-		};
 		848D2B2816C7DEDA00773A35 /* ASIHTTPREQUEST */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,6 +406,15 @@
 			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		C27ED88B496541FC566B92EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52772EDA718426E589F67F7B /* Pods.debug.xcconfig */,
+				877BE9A619F467329B2426C1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -471,9 +422,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8447F0ED1681025200CEBDA6 /* Build configuration list for PBXNativeTarget "Styleio" */;
 			buildPhases = (
+				9B7A95E2C101C8767D1AFA0C /* Check Pods Manifest.lock */,
 				8447F0B01681025100CEBDA6 /* Sources */,
 				8447F0B11681025100CEBDA6 /* Frameworks */,
 				8447F0B21681025100CEBDA6 /* Resources */,
+				438425BCFAF3F40B4C8ACB3E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -501,7 +454,7 @@
 			name = StyleioTests;
 			productName = StyleioiPadAlpha0.5.2Tests;
 			productReference = 8447F0DB1681025200CEBDA6 /* StyleioTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -585,6 +538,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		438425BCFAF3F40B4C8ACB3E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8447F0D91681025200CEBDA6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -598,6 +566,21 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		9B7A95E2C101C8767D1AFA0C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -607,12 +590,6 @@
 			files = (
 				8447F0C51681025100CEBDA6 /* main.m in Sources */,
 				8447F0C91681025100CEBDA6 /* AppDelegate.m in Sources */,
-				8447F1021681027700CEBDA6 /* PSStackedViewController.m in Sources */,
-				8447F1031681027700CEBDA6 /* PSStackedViewGlobal.m in Sources */,
-				8447F1041681027700CEBDA6 /* PSStackedViewSegue.m in Sources */,
-				8447F1051681027700CEBDA6 /* PSSVContainerView.m in Sources */,
-				8447F1061681027700CEBDA6 /* UIView+PSSizes.m in Sources */,
-				8447F1071681027700CEBDA6 /* UIViewController+PSStackedView.m in Sources */,
 				8447F10A1681042200CEBDA6 /* sidebarViewController.m in Sources */,
 				8447F13C1685F8B700CEBDA6 /* resultsViewController.m in Sources */,
 				8447F13D1685F8B700CEBDA6 /* searchViewController.m in Sources */,
@@ -622,9 +599,6 @@
 				84289BB516863F9C00064027 /* settingsViewController.m in Sources */,
 				84289BB81686806900064027 /* loginViewController.m in Sources */,
 				84D14793168CC0CE00F7C5E0 /* MBProgressHUD.m in Sources */,
-				848D2B1516C7D7F400773A35 /* FSN_categories.m in Sources */,
-				848D2B1616C7D7F400773A35 /* FSNConnection.m in Sources */,
-				848D2B1716C7D7F400773A35 /* FSNData.m in Sources */,
 				848D2B7B16C7DEDA00773A35 /* ASIAuthenticationDialog.m in Sources */,
 				848D2B7C16C7DEDA00773A35 /* ASIDataCompressor.m in Sources */,
 				848D2B7D16C7DEDA00773A35 /* ASIDataDecompressor.m in Sources */,
@@ -739,6 +713,7 @@
 		};
 		8447F0EE1681025200CEBDA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52772EDA718426E589F67F7B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -747,7 +722,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StyleioiPadAlpha0.5.2/Styleio-Prefix.pch";
 				INFOPLIST_FILE = "StyleioiPadAlpha0.5.2/Styleio-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = Styleio;
 				WRAPPER_EXTENSION = app;
 			};
@@ -755,6 +730,7 @@
 		};
 		8447F0EF1681025200CEBDA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877BE9A619F467329B2426C1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -763,7 +739,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StyleioiPadAlpha0.5.2/Styleio-Prefix.pch";
 				INFOPLIST_FILE = "StyleioiPadAlpha0.5.2/Styleio-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				PRODUCT_NAME = Styleio;
 				WRAPPER_EXTENSION = app;
 			};

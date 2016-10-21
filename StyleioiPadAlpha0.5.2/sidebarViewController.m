@@ -9,14 +9,9 @@
 #import "PSStackedViewController.h"
 #import "UIViewController+PSStackedView.h"
 #import "sidebarViewController.h"
-#import "FSNConnection.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-
-//#import "resultsViewController.h"
-//#import "searchViewController.h"
-//#import "searchViewController.h"
 
 
 @interface sidebarViewController ()
@@ -101,7 +96,7 @@
     //UIViewController *fav = [[stack viewControllers] objectAtIndex:0];
     //indexNumber = [stack.viewControllers count];
     
-    [favoritesVC setPanEnabled:NO];
+    //[favoritesVC setPanEnabled:NO];
     [stack pushViewController:favoritesVC fromViewController:self animated:YES];
     //[favoritesVC.view removeGestureRecognizer:stack.panRecognizer];
     [stack pushViewController:detailsVC fromViewController:favoritesVC animated:YES];
